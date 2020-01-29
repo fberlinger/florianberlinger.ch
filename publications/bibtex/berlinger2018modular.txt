@@ -1,0 +1,8 @@
+@inproceedings{berlinger2018modular,
+  title={A modular dielectric elastomer actuator to drive miniature autonomous underwater vehicles},
+  author={Berlinger, Florian and Duduta, Mihai and Gloria, Hudson and Clarke, David and Nagpal, Radhika and Wood, Robert},
+  booktitle={2018 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3429--3435},
+  year={2018},
+  organization={IEEE}
+}

@@ -1,0 +1,8 @@
+@inproceedings{soltan2018biomimetic,
+  title={Biomimetic actuation method for a miniature, low-cost multi-jointed robotic fish},
+  author={Soltan, Katerina and O'Brien, Jamie and Dusek, Jeff and Berlinger, Florian and Nagpal, Radhika},
+  booktitle={OCEANS 2018 MTS/IEEE Charleston},
+  pages={1--9},
+  year={2018},
+  organization={IEEE}
+}

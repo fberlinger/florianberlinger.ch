@@ -1,0 +1,10 @@
+@article{duduta2019electrically,
+  title={Electrically-latched compliant jumping mechanism based on a dielectric elastomer actuator},
+  author={Duduta, Mihai and Berlinger, FCJ and Nagpal, Radhika and Clarke, DR and Wood, RJ and Temel, F Zeynep},
+  journal={Smart Materials and Structures},
+  volume={28},
+  number={9},
+  pages={09LT01},
+  year={2019},
+  publisher={IOP Publishing}
+}

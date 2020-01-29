@@ -1,0 +1,10 @@
+@article{berlinger2017robust,
+  title={Robust maneuverability of a miniature, low-cost underwater robot using multiple fin actuation},
+  author={Berlinger, Florian and Dusek, Jeff and Gauci, Melvin and Nagpal, Radhika},
+  journal={IEEE Robotics and Automation Letters},
+  volume={3},
+  number={1},
+  pages={140--147},
+  year={2017},
+  publisher={IEEE}
+}

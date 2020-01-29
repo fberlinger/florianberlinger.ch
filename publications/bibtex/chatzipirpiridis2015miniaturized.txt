@@ -1,0 +1,8 @@
+@inproceedings{chatzipirpiridis2015miniaturized,
+  title={Miniaturized magnetic force sensor on a catheter tip},
+  author={Chatzipirpiridis, George and Gervasoni, Simone and Berlinger, Florian and Ergeneman, O and Pan{\'e}, S and Nelson, BJ and others},
+  booktitle={2015 Transducers-2015 18th International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS)},
+  pages={1727--1730},
+  year={2015},
+  organization={IEEE}
+}

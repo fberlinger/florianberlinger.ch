@@ -1,0 +1,8 @@
+@misc{berlinger2016carriage,
+  title={Carriage cart with obstacle overcoming},
+  author={Berlinger, Florian Conrad Joseph and Clausen, Clemens Maurice and Detrekoey, Yorrick and Eichenberger, Jonas and Eppenberger, Marco Andrea and Fisler, Michael Simon and Mueller, Andreas and Schmid, Simon Michael and Fischer, Wolfgang},
+  year={2016},
+  month=jun # "~9",
+  publisher={Google Patents},
+  note={US Patent App. 15/041,652}
+}
