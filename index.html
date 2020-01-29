@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+
+<!--
+(C) 2020 Florian Berlinger
+-->
+
+<html lang="en">
+  <head>
+    <!-- Title -->
+    <title>Florian Berlinger</title>
+    <link rel="shortcut icon" href="media/test.ico"/>
+    <!-- Meta -->
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Florian Berlinger">
+    <meta name="description" content="tbd">
+    <meta name="keywords" content="tbd, tbd">
+    <!-- Style, Bootstrap4, FontAwesome, Tooltip -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/507cd52f84.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-sm bg-light navbar-light pl-5 pr-5">
+        <a class="navbar-brand"><strong>Florian Berlinger</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-home fa-fw"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bio.html"><i class="fas fa-user fa-fw"></i> Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html"><i class="fas fa-robot fa-fw"></i> Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html"><i class="far fa-newspaper fa-fw"></i> Publications</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content" style="background-image: url('media/intro_bg.jpg'); opacity: 1; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Main -->
+      <main>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="container-fluid pl-5 pr-5">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 col-sm-5 mt-5 mb-5">
+                <img src="media/portrait.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-xl-6 col-lg-7 col-md-7 col-sm-6 bg-white text-center text-sm-left mt-5 mb-5 pt-3 rounded" style="opacity: 0.8;">
+                <h5 class="h5-responsive"><p><strong>Hello!</strong></p><p>My name is Florian and I am fascinated by schools of fish and teams of robots because they display <strong>collective intelligence</strong>. I study <strong>algorithms</strong>, design <strong>robots</strong>, and implement <strong>software</strong>. In this quest for intelligent systems, my PhD in <strong>computer science</strong> combines nicely with my background in <strong>mechanical engineering</strong>.&nbsp;
+
+                <a class="text-primary" href="https://youtu.be/9swj01tsr0A" target="_blank" data-toggle="tooltip" data-placement="bottom" title="You found a secret link to one of my diving adventures!"><i class="fas fa-fish"></i></a>  
+                </p></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row bg-light text-dark pt-3 pb-3 pl-5 pr-5">
+        <div class="col-sm-2 text-center text-sm-left">
+          <img src="media/hvd_shield.png" alt="" style="width:auto;height:100px;">
+        </div>
+
+        <div class="col-sm-4 text-center text-sm-left">
+          Florian Berlinger<br>
+          Harvard University<br>
+          PhD Candidate in Computer Science<br>
+        </div>
+
+        <div class="col-sm-3 text-center text-sm-left">
+          33 Oxford St, MD238<br>
+          Cambridge<br>
+          MA 02138, USA
+        </div>
+
+        <div class="col-sm-3 text-center text-sm-left">
+          <i class="fas fa-envelope fa-fw"></i>&nbsp;<a class="text-info" href = "mailto: fberlinger@seas.harvard.edu">Email</a>
+          <br>
+          <i class="fab fa-linkedin fa-fw"></i>&nbsp;<a class="text-info" href="https://www.linkedin.com/in/fberlinger/en" target="_blank">Linkedin</a>
+          <br>
+          <i class="fas fa-graduation-cap fa-fw"></i>&nbsp;<a class="text-info" href="https://scholar.google.com/citations?user=2ScPbpIAAAAJ&hl=de&oi=ao" target="_blank">Google Scholar</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
