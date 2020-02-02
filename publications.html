@@ -23,6 +23,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/507cd52f84.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </head>
 
   <body>
@@ -233,26 +238,32 @@
 
     <div class="container-fluid bg-dark text-light pt-3 pb-3 pl-5 pr-5">
       <!-- Footer -->
-      <footer>
+      <footer class="footer">
         <div class="row">
           <div class="col-sm-2 text-center text-sm-left">
-            <img src="media/hvd_shield.png" alt="" style="width:auto;height:100px;">
+            <!--<a class="text-light" href="https://www.seas.harvard.edu/" target="_blank" data-toggle="tooltip" data-placement="right" title="Harvard School of Engineering and Applied Sciences">-->
+            <a class="text-light" href="https://www.seas.harvard.edu/" target="_blank">
+              <img src="media/hvd_shield.png" alt="" style="width:auto;height:100px;">
+            </a>
           </div>
 
           <div class="col-sm-4 text-center text-sm-left">
             Florian Berlinger<br>
-            Harvard University<br>
+            Harvard University - <a class="text-light" href="https://ssr.seas.harvard.edu/" target="_blank">SSR Group</a><br>
             PhD Candidate in Computer Science<br>
           </div>
 
           <div class="col-sm-3 text-center text-sm-left">
-            33 Oxford St, MD238<br>
-            Cambridge<br>
-            MA 02138, USA
+            <!--<a class="text-light" href="https://goo.gl/maps/LCxE4FHMzndX52HV6" target="_blank" data-toggle="tooltip" data-placement="right" title="Show on Google Maps">-->
+            <a class="text-light" href="https://goo.gl/maps/LCxE4FHMzndX52HV6" target="_blank">
+              33 Oxford St, MD238<br>
+              Cambridge, MA 02138<br>
+              United States of America
+            </a>
           </div>
 
           <div class="col-sm-3 text-center text-sm-left">
-            <i class="fas fa-envelope fa-fw"></i>&nbsp;<a class="text-info" class="text-info" href = "mailto: fberlinger@seas.harvard.edu">Email</a>
+            <i class="fas fa-envelope fa-fw"></i>&nbsp;<a class="text-info" href = "mailto: fberlinger@seas.harvard.edu">Email</a>
             <br>
             <i class="fab fa-linkedin fa-fw"></i>&nbsp;<a class="text-info" href="https://www.linkedin.com/in/fberlinger/en" target="_blank">Linkedin</a>
             <br>

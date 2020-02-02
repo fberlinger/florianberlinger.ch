@@ -23,6 +23,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/507cd52f84.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </head>
 
   <body>
@@ -59,16 +64,16 @@
         <div class="pb-4" id="research">
           <h5>Research Interests and Relevance</h5>
           <p>
-            I am intersted in introducing intelligence to engineered systems, enabling them to perceive, reason, and act autonomously. In my research, I focus on the investigation of self-organized and decentralized multi-agent systems. In addition, I work on biomimetic smart designs for robotics and materials.
+            I am intersted in introducing intelligence to engineered systems, enabling them to perceive, reason, and act autonomously. In my research, I focus on self-organized and decentralized multi-agent systems. In addition, I work on biomimetic smart designs for robotics and materials.
           </p>
           <p>
-            Multi-agent systems can get enormeous mileage from cooperation such that system-level capabilities emerge that are unattainable by individual agents. Much of my inspiration comes from nature where ant colonies, swarms of bees, or schools of fish display a range of impressive collective behaviors. Many of these behaviors are rule-based and result from the accumulation of local interactions between individuals across time and space. It is those agent interactions I am most intrigued by. My research asks how individual agents should interact locally to achieve a user-specified global goal. It aims at algorithms for decentralized coordination that lead to provable, scalable, and robust collective behaviors.
+            Multi-agent systems can get enormeous mileage from cooperation such that system-level capabilities emerge that are unattainable by individual agents. Much of my inspiration comes from nature where ant colonies, swarms of bees, or schools of fish display a range of impressive collective behaviors. Many of these behaviors are largely rule-based and result from the accumulation of local interactions between individuals across time and space. It is those agent interactions I am most intrigued by. My research asks how individual agents should interact locally to achieve a user-specified global goal. It aims at algorithms for decentralized coordination that lead to provable, scalable, and robust collective behaviors.
           </p>
           <p>
             The reliability of large-scale systems, such as traffic, finance, or power, is of growing importance in a globally connected as well as increasingly automated and accelerated world. Failures of such systems may critically affect millions of people. Decentralized and self-organized designs can improve the robustness of largely autonomous systems while also increasing their scalability; such systems become more redundant and less vulnerable to human error and malicious attacks. In addition, self-organized systems may enable new ventures, which are currently unfeasible due to impaired real-time communication with or the safety of human operators. For instance, teams of robots could provide shelter and harvest energy on distant planets long before humans arrive, or speed up search and rescue missions in hazardous areas here on earth. More immediately, I expect the insights from my research to have a direct impact on the organization and coordination of large automated systems spanning from self-driving cars and automated warehouses to high-frequency trading and smart communication and power grids.
           </p>
           <p>
-            I like that my research is very varied: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique.
+            I like that my work is very diverse: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique.
           </p>
           <div class="row">
             <div class="col-md-3 pb-3 pb-md-0">
@@ -105,10 +110,10 @@
                 The natural world abounds with self-organizing collectives, where large numbers of relatively simple agents use local interactions to produce impressive global behaviors. Such biological collectives exhibit several properties that are highly desirable from an engineering perspective: they are decentralized, providing robustness to failure of agents, and they rely primarily on local sensing and nearest neighbor interactions, exhibiting high degrees of scalability and adaptability.
               </p>
               <p>
-                Inspired by reef fish schools, the Blueswarm project aims to develop an experimental robotics platforms for the investigation of self-organized collective behaviors in 3D space. To this end, we design and test miniature autonomous underwater robots with 3D perception and 3D locomotion.
+                Inspired by reef fish schools, the Blueswarm project aims to develop an experimental robotics platforms for the investigation of self-organized collective behaviors in 3D space. To this end, we design, fabricate, and test miniature autonomous underwater robots with 3D vison-based perception and 3D fin-propelled locomotion.
               </p>
               <p>
-                In our current work, we demonstrate 3D collective behaviors with Blueswarm, using only implicit coordination mediated through blue light. We aim to show that complex and dynamic 3D collective behaviors – synchrony, aggregation-dispersion, milling, search-capture – can be achieved through sensing minimalist and noisy impressions of the surroundings and without explicit or complete knowledge of neighbors. The goal is to gain new insights into the robustness of implicit coordination and the potential for future designs of underwater robot swarms that can display fish-school-level capabilities for applications such as environmental monitoring in coral reefs and large-scale search operations.
+                Currently, we work on 3D collective behaviors with Blueswarm using only vision-based coordination mediated through blue light. We aim to show that complex and dynamic 3D collective behaviors – synchrony, aggregation-dispersion, milling, search-capture – can be achieved through sensing minimalist and noisy impressions of the surroundings and without complete knowledge of neighbors. Our goal is to gain new insights into the robustness of vision-based coordination and the potential for future designs of underwater robot swarms that can display fish-school-level capabilities for applications such as environmental monitoring in coral reefs and large-scale search operations.
               </p>
             </div>
             <div class="col-lg-6 col-xl-4">
@@ -137,7 +142,7 @@
                 </p>
               </i>
               <p>
-                The swimming performance and maneuverability of fish remain unparalleled when compared to robotic systems. However, robotic systems can be used to study fish-like swimming and narrow the gap between fish and fish-like robots. We designed a small and self-propelled underwater robot, the Finbot, that is autonomous and highly maneuverable, using four independently controllable fins and sensory feedback for precise underwater locomotion. Different caudal fins can be attached magnetically to reconfigure Finbot for swimming at top speed or minimal cost of transport. By replicating three key characteristics of swimming fish - linear speed-frequency relationships, U-shaped costs of transport, and reverse Kármán wakes - Finbot can serve as an experimental platform for addressing open questions in aquatic locomotion, such as optimized propulsion for new fish robots, and the hydrodynamic principles governing the energy savings in schools of fish.
+                The swimming performance and maneuverability of fish remain unparalleled when compared to robotic systems. However, robotic systems can be used to study fish-like swimming and narrow the gap between fish and fish-like robots. We currently design a small and self-propelled underwater robot, the Finbot, that is autonomous and highly maneuverable, using four independently controllable fins and sensory feedback for precise underwater locomotion. Different caudal fins can be attached magnetically to reconfigure Finbot for swimming at top speed or minimal cost of transport. We aim to replicate three key characteristics of swimming fish - linear speed-frequency relationships, U-shaped costs of transport, and reverse Kármán wakes - to qualify Finbot as an experimental platform for addressing open questions in aquatic locomotion, such as optimized propulsion for new fish robots, and the hydrodynamic principles governing the energy savings in schools of fish.
               </p>
               <p>
                 In our most recent work, we use a modified version of Finbot to support novel insights on hydrodynamic advantages of fish schooling from theory and simulation. Our insights indicate that fish can theoretically save as much as 70% power when swimming in groups.<!-- swimming directly behind another fish in a compact arrangement.--> The modified Finbot featuring a biomimetic interaction-based propulsor saves up to 56% power in swimming.
@@ -145,7 +150,7 @@
             </div>
             <div class="col-lg-6 col-xl-4">
               <p>
-                <img src="media/finbot1.png" alt="" class="img-fluid  border border-dark">
+                <img src="media/finbot1.png" alt="" class="img-fluid border border-dark">
               </p>
               <p>
                 <img src="media/finbot.png" alt="" class="img-fluid border border-dark">
@@ -307,22 +312,28 @@
 
     <div class="container-fluid bg-dark text-light pt-3 pb-3 pl-5 pr-5">
       <!-- Footer -->
-      <footer>
+      <footer class="footer">
         <div class="row">
           <div class="col-sm-2 text-center text-sm-left">
-            <img src="media/hvd_shield.png" alt="" style="width:auto;height:100px;">
+            <!--<a class="text-light" href="https://www.seas.harvard.edu/" target="_blank" data-toggle="tooltip" data-placement="right" title="Harvard School of Engineering and Applied Sciences">-->
+            <a class="text-light" href="https://www.seas.harvard.edu/" target="_blank">
+              <img src="media/hvd_shield.png" alt="" style="width:auto;height:100px;">
+            </a>
           </div>
 
           <div class="col-sm-4 text-center text-sm-left">
             Florian Berlinger<br>
-            Harvard University<br>
+            Harvard University - <a class="text-light" href="https://ssr.seas.harvard.edu/" target="_blank">SSR Group</a><br>
             PhD Candidate in Computer Science<br>
           </div>
 
           <div class="col-sm-3 text-center text-sm-left">
-            33 Oxford St, MD238<br>
-            Cambridge<br>
-            MA 02138, USA
+            <!--<a class="text-light" href="https://goo.gl/maps/LCxE4FHMzndX52HV6" target="_blank" data-toggle="tooltip" data-placement="right" title="Show on Google Maps">-->
+            <a class="text-light" href="https://goo.gl/maps/LCxE4FHMzndX52HV6" target="_blank">
+              33 Oxford St, MD238<br>
+              Cambridge, MA 02138<br>
+              United States of America
+            </a>
           </div>
 
           <div class="col-sm-3 text-center text-sm-left">
