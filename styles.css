@@ -6,6 +6,15 @@ html, body {
       body {
         display: flex;
         flex-direction: column;
+        background: #f8f9fa !important;
+      }
+      .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .container-xl {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
       }
       .content {
         flex: 1 0 auto;

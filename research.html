@@ -22,7 +22,7 @@ All other media contents are owned by Florian Berlinger.
   <head>
     <!-- Title -->
     <title>Florian Berlinger</title>
-    <link rel="shortcut icon" href="media/test.ico"/>
+    <link rel="shortcut icon" href="media/network.ico"/>
     <!-- Meta -->
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,259 +71,264 @@ All other media contents are owned by Florian Berlinger.
       </nav>
     </header>
 
-    <div class="container-fluid bg-light text-dark pt-5 pl-5 pr-5">
-      <!-- Main -->
-      <main>
-        <div class="pb-4" id="research">
-          <h5>Research Interests and Relevance</h5>
-          <p>
-            I am intersted in introducing intelligence to engineered systems, enabling them to perceive, reason, and act autonomously. In my research, I focus on self-organized and decentralized multi-agent systems. In addition, I work on biomimetic smart designs for robotics and materials.
-          </p>
-          <p>
-            Multi-agent systems can get enormeous mileage from cooperation such that system-level capabilities emerge that are unattainable by individual agents. Much of my inspiration comes from nature where ant colonies, swarms of bees, or schools of fish display a range of impressive collective behaviors. Many of these behaviors are largely rule-based and result from the accumulation of local interactions between individuals across time and space. It is those agent interactions I am most intrigued by. My research asks how individual agents should interact locally to achieve a user-specified global goal. It aims at algorithms for decentralized coordination that lead to provable, scalable, and robust collective behaviors.
-          </p>
-          <p>
-            The reliability of large-scale systems, such as traffic, finance, or power, is of growing importance in a globally connected as well as increasingly automated and accelerated world. Failures of such systems may critically affect millions of people. Decentralized and self-organized designs can improve the robustness of largely autonomous systems while also increasing their scalability; such systems become more redundant and less vulnerable to human error and malicious attacks. In addition, self-organized systems may enable new ventures, which are currently unfeasible due to impaired real-time communication with or the safety of human operators. For instance, teams of robots could provide shelter and harvest energy on distant planets long before humans arrive, or speed up search and rescue missions in hazardous areas here on earth. More immediately, I expect the insights from my research to have a direct impact on the organization and coordination of large automated systems spanning from self-driving cars and automated warehouses to high-frequency trading and smart communication and power grids.
-          </p>
-          <p>
-            I like that my work is very diverse: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique.
-          </p>
-          <div class="row">
-            <div class="col-md-3 pb-3 pb-md-0">
-              <img src="media/sir.jpg" alt="" class="img-fluid border border-dark">
-            </div>
-            <div class="col-md-3 pb-3 pb-md-0">
-              <img src="media/barracuda.jpg" alt="" class="img-fluid border border-dark">
-            </div>
-            <div class="col-md-3 pb-3 pb-md-0">
-              <img src="media/dea.png" alt="" class="img-fluid border border-dark">
-            </div>
-            <div class="col-md-3">
-              <img src="media/cathether.png" alt="" class="img-fluid border border-dark">
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div id="blueswarm">
-          <div class="row">
-            <div class="col-lg-6 col-xl-8">
-              <h5>Biologically Inspired Underwater Robots for 3-dimensional Collective Behaviors</h5>
-              <i>
-                <p>
-                  Harvard University (2015-present), Self-Organizing Systems Research Group (Prof. Radhika Nagpal)<br>
-                  Publications:
-                  <a class="text-info" href="publications/pdf/oceans2018soltan.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Soltan, O'Brien, Berlinger et al. 2018</a>
-                  <a class="text-info" href="publications/pdf/ral2017-berlinger.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2017</a>
-                </p>
-              </i>
-              <p>
-                The natural world abounds with self-organizing collectives, where large numbers of relatively simple agents use local interactions to produce impressive global behaviors. Such biological collectives exhibit several properties that are highly desirable from an engineering perspective: they are decentralized, providing robustness to failure of agents, and they rely primarily on local sensing and nearest neighbor interactions, exhibiting high degrees of scalability and adaptability.
-              </p>
-              <p>
-                Inspired by reef fish schools, the Blueswarm project aims to develop an experimental robotics platforms for the investigation of self-organized collective behaviors in 3D space. To this end, we design, fabricate, and test miniature autonomous underwater robots with 3D vison-based perception and 3D fin-propelled locomotion.
-              </p>
-              <p>
-                Currently, we work on 3D collective behaviors with Blueswarm using only vision-based coordination mediated through blue light. We aim to show that complex and dynamic 3D collective behaviors – synchrony, aggregation-dispersion, milling, search-capture – can be achieved through sensing minimalist and noisy impressions of the surroundings and without complete knowledge of neighbors. Our goal is to gain new insights into the robustness of vision-based coordination and the potential for future designs of underwater robot swarms that can display fish-school-level capabilities for applications such as environmental monitoring in coral reefs and large-scale search operations.
-              </p>
-            </div>
-            <div class="col-lg-6 col-xl-4">
-              <p>
-                <img src="media/blueswarm1.png" alt="" class="img-fluid  border border-dark">
-              </p>
-              <p>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/MOhHQ_GRQ48" allowfullscreen></iframe>
-                </div>
-              </p>
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div id="finbot">
-          <div class="row">
-            <div class="col-lg-6 col-xl-8">
-              <h5>A Reconfigurable, Multi-fin, and Autonomous Robot for Fish-like Swimming and Schooling</h5>
-              <i>
-                <p>
-                  Harvard University (2018-2020), Self-Organizing Systems Research Group (Prof. Radhika Nagpal), and Lauder Lab (Prof. George Lauder)
-                </p>
-              </i>
-              <p>
-                The swimming performance and maneuverability of fish remain unparalleled when compared to robotic systems. However, robotic systems can be used to study fish-like swimming and narrow the gap between fish and fish-like robots. We currently design a small and self-propelled underwater robot, the Finbot, that is autonomous and highly maneuverable, using four independently controllable fins and sensory feedback for precise underwater locomotion. Different caudal fins can be attached magnetically to reconfigure Finbot for swimming at top speed or minimal cost of transport. We aim to replicate three key characteristics of swimming fish - linear speed-frequency relationships, U-shaped costs of transport, and reverse Kármán wakes - to qualify Finbot as an experimental platform for addressing open questions in aquatic locomotion, such as optimized propulsion for new fish robots, and the hydrodynamic principles governing the energy savings in schools of fish.
-              </p>
-              <p>
-                In our most recent work, we use a modified version of Finbot to support novel insights on hydrodynamic advantages of fish schooling from theory and simulation. Our insights indicate that fish can theoretically save as much as 70% power when swimming in groups. The modified Finbot featuring a biomimetic interaction-based propulsor saves up to 56% power in swimming.
-              </p>
-            </div>
-            <div class="col-lg-6 col-xl-4">
-              <p>
-                <img src="media/finbot1.png" alt="" class="img-fluid border border-dark">
-              </p>
-              <p>
-                <img src="media/finbot2.png" alt="" class="img-fluid border border-dark">
-              </p>
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div id="dea">
-          <div class="row">
-            <div class="col-lg-6 col-xl-8">
-              <h5>Dielectric Elastomer Actuators for Soft Robotics</h5>
-              <i>
-                <p>
-                  Harvard University (2017-2020), Microrobotics Lab (Prof. Robert Wood), Materials Discovery and Applications Group (Prof. David Clarke), and Self-Organizing Systems Research Group (Prof. Radhika Nagpal)<br>
-                  Publications:
-                  <a class="text-info" href="publications/pdf/duduta_sms_letter_2019.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Duduta, Berlinger et al. 2019</a>
-                  <a class="text-info" href="publications/pdf/berlinger_et_al_2018.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2018</a>
-                </p>
-              </i>
-              <p>
-                Dielectric elastomer actuators (DEAs) are compliant capacitors that operate as soft electro-mechanical transducers and convert electrical energy into mechanical work. In a novel design approach, we were able to avoid pre-stretch of the elastomers and multiply actuation forces by stacking several actuation layers. Such DEAs were strong enough to act as propulsive fins on an underwater robot in one of the first demonstrations of autonomous DEA-driven vehicles.
-              </p>
-              <p>
-                Currently, we explore soft DEA robots conducive to multi-modal locomotion. Our bending beam design approach enables multiple gaits including crawling, hopping, jumping, and rolling. Gaits are selected and controlled by choice of actuation pattern, i.e., the frequency and magnitude of the applied input voltage to the DEA. Such DEA robots can be used as versatile experimental devices to validate locomotion models, in both natural and engineered systems.
-              </p>
-            </div>
-            <div class="col-lg-6 col-xl-4">
-              <p>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/5Aaedz34EEM" allowfullscreen></iframe>
-                </div>
-              </p>
-              <p>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/26bu3-5Vf1I" allowfullscreen></iframe>
-                </div>
-              </p>
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div id="cathether">
-          <div class="row">
-            <div class="col-lg-6 col-xl-8">
-              <h5>Force Sensing Cathether for the Treatment of Cardiac Arrhythmia</h5>
-              <i>
-                <p>
-                  ETH Zurich (2014), Multi-Scale Robotics Lab (Prof. Bradley Nelson)<br>
-                  Publications:
-                  <a class="text-info" href="publications/pdf/chatzipirpiridis_2015.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Chatzipirpiridis, Gervasoni, Berlinger et al. 2014</a>
-                </p>
-              </i>
-              <p>
-                Force Sensing Catheter is a medical device for the treatment of cardiac arrhythmia, during which the monitoring of contact forces applied to body tissue is critical. The ablation catheter has a miniscule diameter of 3.5mm and is suitable for in vivo applications. It uses a Hall sensor to infer axial and lateral contact forces. Such forces push on its flexible distal end during ablation and change the position of an embedded permanent magnet relative to the sensor. The resulting magnetic field is then translated to the corresponding forces, using a mapping found in simulation and during catheter calibration.
-              </p>
-              <p>
-                My <a class="text-info" href="publications/pdf/fsc.pdf" target="_blank">Semester's thesis</a> included the design, calibration, and validation of Force Sensing Catheter. In addition, I created a deomonstration using the catheter to sample the texture and flexibility of tissue for diagnostic purposes.
-              </p>
-            </div>
-            <div class="col-lg-6 col-xl-4">
-              <p>
-                <img src="media/cathether1.png" alt="" class="img-fluid  border border-dark">
-              </p>
-              <p>
-                <img src="media/cathether2.png" alt="" class="img-fluid  border border-dark">
-              </p>
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div id="sir">
-          <div class="row">
-            <div class="col-lg-6 col-xl-8">
-              <h5>Ship Inspection Robot for Semi-autonomous Safety Inspection of Cargo Ships</h5>
-              <i>
-                <p>
-                  ETH Zurich (2012-2013), Product Development Group Zurich (Prof. Mirko Meboldt) and Autonomous Systems Lab (Prof. Roland Siegwart)<br>
-                  Publications:
-                  <a class="text-info" href="publications/pdf/obstacle_cart_berlinger_2016.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2016</a>
-                </p>
-              </i>
-              <p>
-                <a class="text-info" href="http://www.sir.ethz.ch/" target="_blank">Ship Inspection Robot</a> (SIR) is a robust, cheap, and easy to operate inspection tool for the maritime transport sector. SIR can be operated while cargo ships are sailing, thereby reducing inspection time in dry docks. Thanks to its innovative overlapping wheel configuration, SIR is the first wheeled inspection robot that has the ability to overcome a broad variety of obstacles commonly encountered in cargo ships. Such obstacles include T-, L-, I-, and bulb-shaped stiffeners as well as convex and concave edges.
-              </p>
-              <p>
-                SIR was realized during a year-long <a class="text-info" href="https://mavt.ethz.ch/industry-and-society/student-projects.html" target="_blank">Focus Project</a> at ETH Zurich together with industry partner <a class="text-info" href="https://inspection-robotics.com/" target="_blank">GE Inspection Robotics</a>. I was leading the research team consisting of 10 interdisciplinary undergraduate students (6 mechanical and 2 electrical engineers, 2 industrial designers). For my <a class="text-info" href="publications/pdf/occ.pdf" target="_blank">Bachelor's thesis</a>, I developped an Obstacle Climbing Controller for SIR, which reduced motor torque peaks inside obstacles by up to 40% and enabled smooth obstacle passing. <span style="color:red">The obstacle overcoming design aspects of SIR got patented internationally.</span>
-              </p>
-            </div>
-            <div class="col-lg-6 col-xl-4">
-              <p>
-                <img src="media/sir1.jpg" alt="" class="img-fluid  border border-dark">
-              </p>
-              <p>
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/gP2G8_fL5ng" allowfullscreen></iframe>
-                </div>
-              </p>
-            </div>
-          </div>
-          <div class="padding"></div>
-          <hr>
-        </div>
-
-        <div class="padding"></div>
-        <div class="pb-4" id="media">
-          <h5>In the Media</h5>
-          <p>
-            My research receives coverage in the print or visual media, and I aim to write pop-science articles about my work to engage a broader audience in topics like artificial intelligence and automation. Opinions stated in media contents I did not contribute to do not necessarily reflect my own views.
-          </p>
-
-          <p>
+    <div class="container-xl">
+      <div class="bg-light text-dark pt-5 pl-5 pr-5">
+        <!-- Main -->
+        <main>
+          <div class="pb-4" id="research">
             <div class="row">
-              <div class="col-sm-2">
-                <img src="media/reatchlogo.png" alt="" class="img-fluid">
-              </div>
-              <div class="col-sm-10">
-               <b><a class="text-info" href="https://www.reatch.ch/de/content/gap-between-intelligence-and-artificial-intelligence" target="_blank">The Gap between Intelligence and Artificial Intelligence</a></b><br>
-               Reatch, 8 Aug 2017
-              </div>
-            </div>
-          </p>
-
-          <p>
+              <div class="col">
+            <h5>Research Interests and Relevance</h5>
+            <p>
+              I am intersted in introducing intelligence to engineered systems, enabling them to perceive, reason, and act autonomously. In my research, I focus on self-organized and decentralized multi-agent systems. In addition, I work on biomimetic smart designs for robotics and materials.
+            </p>
+            <p>
+              Multi-agent systems can get enormeous mileage from cooperation such that system-level capabilities emerge that are unattainable by individual agents. Much of my inspiration comes from nature where ant colonies, swarms of bees, or schools of fish display a range of impressive collective behaviors. Many of these behaviors are largely rule-based and result from the accumulation of local interactions between individuals across time and space. It is those agent interactions I am most intrigued by. My research asks how individual agents should interact locally to achieve a user-specified global goal. It aims at algorithms for decentralized coordination that lead to provable, scalable, and robust collective behaviors.
+            </p>
+            <p>
+              The reliability of large-scale systems, such as traffic, finance, or power, is of growing importance in a globally connected as well as increasingly automated and accelerated world. Failures of such systems may critically affect millions of people. Decentralized and self-organized designs can improve the robustness of largely autonomous systems while also increasing their scalability; such systems become more redundant and less vulnerable to human error and malicious attacks. In addition, self-organized systems may enable new ventures, which are currently unfeasible due to impaired real-time communication with or the safety of human operators. For instance, teams of robots could provide shelter and harvest energy on distant planets long before humans arrive, or speed up search and rescue missions in hazardous areas here on earth. More immediately, I expect the insights from my research to have a direct impact on the organization and coordination of large automated systems spanning from self-driving cars and automated warehouses to high-frequency trading and smart communication and power grids.
+            </p>
+            <p>
+              I like that my work is very diverse: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique.
+            </p>
+          </div></div>
             <div class="row">
-              <div class="col-sm-2">
-                <img src="media/marinemaintenancelogo.png" alt="" class="img-fluid">
+              <div class="col-md-3 pb-3 pb-md-0">
+                <img src="media/sir.jpg" alt="" class="img-fluid border border-dark">
               </div>
-              <div class="col-sm-10">
-               <b><a class="text-info" href="media/sir_article.pdf" target="_blank">Man vs machine</a></b><br>
-               Marine Maintenance, 29 Sep 2015
+              <div class="col-md-3 pb-3 pb-md-0">
+                <img src="media/barracuda.jpg" alt="" class="img-fluid border border-dark">
+              </div>
+              <div class="col-md-3 pb-3 pb-md-0">
+                <img src="media/dea.png" alt="" class="img-fluid border border-dark">
+              </div>
+              <div class="col-md-3">
+                <img src="media/cathether.png" alt="" class="img-fluid border border-dark">
               </div>
             </div>
-          </p>
+            <div class="padding"></div>
+            <hr>
+          </div>
 
-          <p>
+          <div class="padding"></div>
+          <div id="blueswarm">
             <div class="row">
-              <div class="col-sm-2">
-                <img src="media/robohublogo.png" alt="" class="img-fluid">
+              <div class="col-lg-6 col-xl-8">
+                <h5>Biologically Inspired Underwater Robots for 3-dimensional Collective Behaviors</h5>
+                <i>
+                  <p>
+                    Harvard University (2015-present), Self-Organizing Systems Research Group (Prof. Radhika Nagpal)<br>
+                    Publications:
+                    <a class="text-info" href="publications/pdf/oceans2018soltan.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Soltan, O'Brien, Berlinger et al. 2018</a>
+                    <a class="text-info" href="publications/pdf/ral2017-berlinger.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2017</a>
+                  </p>
+                </i>
+                <p>
+                  The natural world abounds with self-organizing collectives, where large numbers of relatively simple agents use local interactions to produce impressive global behaviors. Such biological collectives exhibit several properties that are highly desirable from an engineering perspective: they are decentralized, providing robustness to failure of agents, and they rely primarily on local sensing and nearest neighbor interactions, exhibiting high degrees of scalability and adaptability.
+                </p>
+                <p>
+                  Inspired by reef fish schools, the Blueswarm project aims to develop an experimental robotics platforms for the investigation of self-organized collective behaviors in 3D space. To this end, we design, fabricate, and test miniature autonomous underwater robots with 3D vison-based perception and 3D fin-propelled locomotion.
+                </p>
+                <p>
+                  Currently, we work on 3D collective behaviors with Blueswarm using only vision-based coordination mediated through blue light. We aim to show that complex and dynamic 3D collective behaviors – synchrony, aggregation-dispersion, milling, search-capture – can be achieved through sensing minimalist and noisy impressions of the surroundings and without complete knowledge of neighbors. Our goal is to gain new insights into the robustness of vision-based coordination and the potential for future designs of underwater robot swarms that can display fish-school-level capabilities for applications such as environmental monitoring in coral reefs and large-scale search operations.
+                </p>
               </div>
-              <div class="col-sm-10">
-               <b><a class="text-info" href="https://robohub.org/students-hope-their-ship-inspection-robot-will-significantly-reduce-dry-dock-time-for-maritime-transport-industry-improve-safety-for-inspectors/" target="_blank">Students hope their ship inspection robot will significantly reduce dry-dock time for maritime transport industry, improve safety for inspectors</a></b><br>
-               Robohub, 30 Sep 2013
+              <div class="col-lg-6 col-xl-4">
+                <p>
+                  <img src="media/blueswarm1.png" alt="" class="img-fluid  border border-dark">
+                </p>
+                <p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/MOhHQ_GRQ48" allowfullscreen></iframe>
+                  </div>
+                </p>
               </div>
             </div>
-          </p>
-        </div>
-      </main>
+            <div class="padding"></div>
+            <hr>
+          </div>
+
+          <div class="padding"></div>
+          <div id="finbot">
+            <div class="row">
+              <div class="col-lg-6 col-xl-8">
+                <h5>A Reconfigurable, Multi-fin, and Autonomous Robot for Fish-like Swimming and Schooling</h5>
+                <i>
+                  <p>
+                    Harvard University (2018-2020), Self-Organizing Systems Research Group (Prof. Radhika Nagpal), and Lauder Lab (Prof. George Lauder)
+                  </p>
+                </i>
+                <p>
+                  The swimming performance and maneuverability of fish remain unparalleled when compared to robotic systems. However, robotic systems can be used to study fish-like swimming and narrow the gap between fish and fish-like robots. We currently design a small and self-propelled underwater robot, the Finbot, that is autonomous and highly maneuverable, using four independently controllable fins and sensory feedback for precise underwater locomotion. Different caudal fins can be attached magnetically to reconfigure Finbot for swimming at top speed or minimal cost of transport. We aim to replicate three key characteristics of swimming fish - linear speed-frequency relationships, U-shaped costs of transport, and reverse Kármán wakes - to qualify Finbot as an experimental platform for addressing open questions in aquatic locomotion, such as optimized propulsion for new fish robots, and the hydrodynamic principles governing the energy savings in schools of fish.
+                </p>
+                <p>
+                  In our most recent work, we use a modified version of Finbot to support novel insights on hydrodynamic advantages of fish schooling from theory and simulation. Our insights indicate that fish can theoretically save as much as 70% power when swimming in groups. The modified Finbot featuring a biomimetic interaction-based propulsor saves up to 56% power in swimming.
+                </p>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <p>
+                  <img src="media/finbot1.png" alt="" class="img-fluid border border-dark">
+                </p>
+                <p>
+                  <img src="media/finbot2.png" alt="" class="img-fluid border border-dark">
+                </p>
+              </div>
+            </div>
+            <div class="padding"></div>
+            <hr>
+          </div>
+
+          <div class="padding"></div>
+          <div id="dea">
+            <div class="row">
+              <div class="col-lg-6 col-xl-8">
+                <h5>Dielectric Elastomer Actuators for Soft Robotics</h5>
+                <i>
+                  <p>
+                    Harvard University (2017-2020), Microrobotics Lab (Prof. Robert Wood), Materials Discovery and Applications Group (Prof. David Clarke), and Self-Organizing Systems Research Group (Prof. Radhika Nagpal)<br>
+                    Publications:
+                    <a class="text-info" href="publications/pdf/duduta_sms_letter_2019.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Duduta, Berlinger et al. 2019</a>
+                    <a class="text-info" href="publications/pdf/berlinger_et_al_2018.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2018</a>
+                  </p>
+                </i>
+                <p>
+                  Dielectric elastomer actuators (DEAs) are compliant capacitors that operate as soft electro-mechanical transducers and convert electrical energy into mechanical work. In a novel design approach, we were able to avoid pre-stretch of the elastomers and multiply actuation forces by stacking several actuation layers. Such DEAs were strong enough to act as propulsive fins on an underwater robot in one of the first demonstrations of autonomous DEA-driven vehicles.
+                </p>
+                <p>
+                  Currently, we explore soft DEA robots conducive to multi-modal locomotion. Our bending beam design approach enables multiple gaits including crawling, hopping, jumping, and rolling. Gaits are selected and controlled by choice of actuation pattern, i.e., the frequency and magnitude of the applied input voltage to the DEA. Such DEA robots can be used as versatile experimental devices to validate locomotion models, in both natural and engineered systems.
+                </p>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/5Aaedz34EEM" allowfullscreen></iframe>
+                  </div>
+                </p>
+                <p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/26bu3-5Vf1I" allowfullscreen></iframe>
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class="padding"></div>
+            <hr>
+          </div>
+
+          <div class="padding"></div>
+          <div id="cathether">
+            <div class="row">
+              <div class="col-lg-6 col-xl-8">
+                <h5>Force Sensing Cathether for the Treatment of Cardiac Arrhythmia</h5>
+                <i>
+                  <p>
+                    ETH Zurich (2014), Multi-Scale Robotics Lab (Prof. Bradley Nelson)<br>
+                    Publications:
+                    <a class="text-info" href="publications/pdf/chatzipirpiridis_2015.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Chatzipirpiridis, Gervasoni, Berlinger et al. 2014</a>
+                  </p>
+                </i>
+                <p>
+                  Force Sensing Catheter is a medical device for the treatment of cardiac arrhythmia, during which the monitoring of contact forces applied to body tissue is critical. The ablation catheter has a miniscule diameter of 3.5mm and is suitable for in vivo applications. It uses a Hall sensor to infer axial and lateral contact forces. Such forces push on its flexible distal end during ablation and change the position of an embedded permanent magnet relative to the sensor. The resulting magnetic field is then translated to the corresponding forces, using a mapping found in simulation and during catheter calibration.
+                </p>
+                <p>
+                  My <a class="text-info" href="publications/pdf/fsc.pdf" target="_blank">Semester's thesis</a> included the design, calibration, and validation of Force Sensing Catheter. In addition, I created a deomonstration using the catheter to sample the texture and flexibility of tissue for diagnostic purposes.
+                </p>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <p>
+                  <img src="media/cathether1.png" alt="" class="img-fluid  border border-dark">
+                </p>
+                <p>
+                  <img src="media/cathether2.png" alt="" class="img-fluid  border border-dark">
+                </p>
+              </div>
+            </div>
+            <div class="padding"></div>
+            <hr>
+          </div>
+
+          <div class="padding"></div>
+          <div id="sir">
+            <div class="row">
+              <div class="col-lg-6 col-xl-8">
+                <h5>Ship Inspection Robot for Semi-autonomous Safety Inspection of Cargo Ships</h5>
+                <i>
+                  <p>
+                    ETH Zurich (2012-2013), Product Development Group Zurich (Prof. Mirko Meboldt) and Autonomous Systems Lab (Prof. Roland Siegwart)<br>
+                    Publications:
+                    <a class="text-info" href="publications/pdf/obstacle_cart_berlinger_2016.pdf" target="_blank"><i class="fas fa-file-pdf fa-fw"></i>&nbsp;Berlinger et al. 2016</a>
+                  </p>
+                </i>
+                <p>
+                  <a class="text-info" href="http://www.sir.ethz.ch/" target="_blank">Ship Inspection Robot</a> (SIR) is a robust, cheap, and easy to operate inspection tool for the maritime transport sector. SIR can be operated while cargo ships are sailing, thereby reducing inspection time in dry docks. Thanks to its innovative overlapping wheel configuration, SIR is the first wheeled inspection robot that has the ability to overcome a broad variety of obstacles commonly encountered in cargo ships. Such obstacles include T-, L-, I-, and bulb-shaped stiffeners as well as convex and concave edges.
+                </p>
+                <p>
+                  SIR was realized during a year-long <a class="text-info" href="https://mavt.ethz.ch/industry-and-society/student-projects.html" target="_blank">Focus Project</a> at ETH Zurich together with industry partner <a class="text-info" href="https://inspection-robotics.com/" target="_blank">GE Inspection Robotics</a>. I was leading the research team consisting of 10 interdisciplinary undergraduate students (6 mechanical and 2 electrical engineers, 2 industrial designers). For my <a class="text-info" href="publications/pdf/occ.pdf" target="_blank">Bachelor's thesis</a>, I developped an Obstacle Climbing Controller for SIR, which reduced motor torque peaks inside obstacles by up to 40% and enabled smooth obstacle passing. <span style="color:red">The obstacle overcoming design aspects of SIR got patented internationally.</span>
+                </p>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <p>
+                  <img src="media/sir1.jpg" alt="" class="img-fluid  border border-dark">
+                </p>
+                <p>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item border border-dark" src="https://www.youtube.com/embed/gP2G8_fL5ng" allowfullscreen></iframe>
+                  </div>
+                </p>
+              </div>
+            </div>
+            <div class="padding"></div>
+            <hr>
+          </div>
+
+          <div class="padding"></div>
+          <div class="pb-4" id="media">
+            <h5>In the Media</h5>
+            <p>
+              My research receives coverage in the print or visual media, and I aim to write pop-science articles about my work to engage a broader audience in topics like artificial intelligence and automation. Opinions stated in media contents I did not contribute to do not necessarily reflect my own views.
+            </p>
+
+            <p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="media/reatchlogo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-10">
+                 <b><a class="text-info" href="https://www.reatch.ch/de/content/gap-between-intelligence-and-artificial-intelligence" target="_blank">The Gap between Intelligence and Artificial Intelligence</a></b><br>
+                 Reatch, 8 Aug 2017
+                </div>
+              </div>
+            </p>
+
+            <p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="media/marinemaintenancelogo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-10">
+                 <b><a class="text-info" href="media/sir_article.pdf" target="_blank">Man vs machine</a></b><br>
+                 Marine Maintenance, 29 Sep 2015
+                </div>
+              </div>
+            </p>
+
+            <p>
+              <div class="row">
+                <div class="col-sm-2">
+                  <img src="media/robohublogo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-sm-10">
+                 <b><a class="text-info" href="https://robohub.org/students-hope-their-ship-inspection-robot-will-significantly-reduce-dry-dock-time-for-maritime-transport-industry-improve-safety-for-inspectors/" target="_blank">Students hope their ship inspection robot will significantly reduce dry-dock time for maritime transport industry, improve safety for inspectors</a></b><br>
+                 Robohub, 30 Sep 2013
+                </div>
+              </div>
+            </p>
+          </div>
+        </main>
+      </div>
     </div>
 
-    <div class="container-fluid bg-dark text-light pt-3 pb-3 pl-5 pr-5">
+    <div class="bg-dark text-light pt-3 pb-3 pl-5 pr-5">
       <!-- Footer -->
       <footer class="footer">
         <div class="row">
