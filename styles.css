@@ -1,5 +1,4 @@
 
-/* Sticky footer with Flexbox */
 html, body {
         height: 100%;
       }
@@ -8,6 +7,8 @@ html, body {
         flex-direction: column;
         background: #f8f9fa !important;
       }
+
+      /* Sticky footer with Flexbox */
       .container-fluid {
         padding-left: 0 !important;
         padding-right: 0 !important;
@@ -24,4 +25,35 @@ html, body {
       }
       .padding{
         padding: 1rem;
+      }
+
+      /* Image hover */
+      .img-fluid {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .hover_image:hover .img-fluid {
+        opacity: 0.3;
+      }
+      .hover_image:hover .middle {
+        opacity: 1;
+      }
+      .text {
+        background-color: white;
+        color: dark;
+        padding: 8px 16px;
       }

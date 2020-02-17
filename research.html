@@ -20,6 +20,15 @@ All other media contents are owned by Florian Berlinger.
 
 <html lang="en">
   <head>
+    <!-- GA -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158690446-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-158690446-1');
+    </script>
     <!-- Title -->
     <title>Florian Berlinger</title>
     <link rel="shortcut icon" href="media/network.ico"/>
@@ -91,29 +100,71 @@ All other media contents are owned by Florian Berlinger.
               The reliability of large-scale systems, such as traffic, finance, or power, is of growing importance in a globally connected as well as increasingly automated and accelerated world. Failures of such systems may critically affect millions of people. Decentralized and self-organized designs can improve the robustness of largely autonomous systems while also increasing their scalability; such systems become more redundant and less vulnerable to human error and malicious attacks. In addition, self-organized systems may enable new ventures, which are currently unfeasible due to impaired real-time communication with or the safety of human operators. For instance, teams of robots could provide shelter and harvest energy on distant planets long before humans arrive, or speed up search and rescue missions in hazardous areas here on earth. More immediately, I expect the insights from my research to have a direct impact on the organization and coordination of large automated systems spanning from self-driving cars and automated warehouses to high-frequency trading and smart communication and power grids.
             </p>
             <p>
-              I like that my work is very diverse: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique.
+              I like that my work is very diverse: I engage in theoretical reasoning, build mathematical models, implement computer simulations, design, fabricate and program robots, run physical experiments, analyze data, and prepare scientific reports and presentations. Working with scholars from all over the world on collaborative multi-disciplinary projects makes my research experience here at Harvard University unique. In the following, I introduce five recent projects.
             </p>
           </div></div>
             <div class="row">
-              <div class="col-md-3 pb-3 pb-md-0">
-                <img src="media/sir.jpg" alt="" class="img-fluid border border-dark">
+              <div class="col-md pb-3 pb-md-0">
+                <a href="#blueswarm">
+                  <div class="hover_image">
+                    <img src="media/blueswarm.png" alt="" class="img-fluid border border-dark">
+                    <div class="middle">
+                      <div class="text">Blueswarm</div>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <div class="col-md-3 pb-3 pb-md-0">
-                <img src="media/barracuda.jpg" alt="" class="img-fluid border border-dark">
+
+              <div class="col-md pb-3 pb-md-0">
+                <a href="#finbot">
+                  <div class="hover_image">
+                    <img src="media/barracuda.jpg" alt="" class="img-fluid border border-dark">
+                    <div class="middle">
+                      <div class="text">Finbot</div>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <div class="col-md-3 pb-3 pb-md-0">
-                <img src="media/dea.png" alt="" class="img-fluid border border-dark">
+
+              <div class="col-md pb-3 pb-md-0">
+                <a href="#dea">
+                  <div class="hover_image">
+                    <img src="media/dea.png" alt="" class="img-fluid border border-dark">
+                    <div class="middle">
+                      <div class="text">DEAs</div>
+                    </div>
+                  </div>
+                </a>
               </div>
-              <div class="col-md-3">
-                <img src="media/cathether.png" alt="" class="img-fluid border border-dark">
+
+              <div class="col-md pb-3 pb-md-0">
+                <a href="#catheter">
+                  <div class="hover_image">
+                    <img src="media/cathether.png" alt="" class="img-fluid border border-dark">
+                    <div class="middle">
+                      <div class="text">Catheter</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md">
+                <a href="#sir">
+                  <div class="hover_image">
+                    <img src="media/sir.png" alt="" class="img-fluid border border-dark">
+                    <div class="middle">
+                      <div class="text">SIR</div>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
             <div class="padding"></div>
             <hr>
           </div>
 
-          <div class="padding"></div>
           <div id="blueswarm">
+            <div class="padding"></div>
             <div class="row">
               <div class="col-lg-6 col-xl-8">
                 <h5>Biologically Inspired Underwater Robots for Three-Dimensional Collective Behaviors</h5>
@@ -150,8 +201,8 @@ All other media contents are owned by Florian Berlinger.
             <hr>
           </div>
 
-          <div class="padding"></div>
           <div id="finbot">
+            <div class="padding"></div>
             <div class="row">
               <div class="col-lg-6 col-xl-8">
                 <h5>A Reconfigurable, Multi-Fin, and Autonomous Robot for Fish-Like Swimming and Schooling</h5>
@@ -180,8 +231,8 @@ All other media contents are owned by Florian Berlinger.
             <hr>
           </div>
 
-          <div class="padding"></div>
           <div id="dea">
+            <div class="padding"></div>
             <div class="row">
               <div class="col-lg-6 col-xl-8">
                 <h5>Dielectric Elastomer Actuators for Soft Robotics</h5>
@@ -217,8 +268,8 @@ All other media contents are owned by Florian Berlinger.
             <hr>
           </div>
 
-          <div class="padding"></div>
-          <div id="cathether">
+          <div id="catheter">
+            <div class="padding"></div>
             <div class="row">
               <div class="col-lg-6 col-xl-8">
                 <h5>Force Sensing Catheter for the Treatment of Cardiac Arrhythmia</h5>
@@ -249,8 +300,8 @@ All other media contents are owned by Florian Berlinger.
             <hr>
           </div>
 
-          <div class="padding"></div>
           <div id="sir">
+            <div class="padding"></div>
             <div class="row">
               <div class="col-lg-6 col-xl-8">
                 <h5>Ship Inspection Robot for Semi-Autonomous Safety Inspection of Cargo Ships</h5>
@@ -287,7 +338,7 @@ All other media contents are owned by Florian Berlinger.
           <div class="pb-4" id="media">
             <h5>In the Media</h5>
             <p>
-              My research receives coverage in the print or visual media, and I aim to write pop-science articles about my work to engage a broader audience in topics like artificial intelligence and automation. Opinions stated in media contents I did not contribute to do not necessarily reflect my own views.
+              My research occasionally receives coverage in the print or visual media, and I aim to write pop-science articles about my work to engage a broader audience in topics like artificial intelligence and automation. Opinions stated in media contents I did not contribute to do not necessarily reflect my own views.
             </p>
 
             <p>
