@@ -1,0 +1,7 @@
+@article{duduta2020tunable,
+  title={Tunable Multi-Modal Locomotion in Soft Dielectric Elastomer Robots},
+  author={Duduta, Mihai and Berlinger, Florian and Nagpal, Radhika and Clarke, David and Wood, Robert and Temel, Zeynep},
+  journal={IEEE Robotics and Automation Letters},
+  year={2020},
+  publisher={IEEE}
+}
