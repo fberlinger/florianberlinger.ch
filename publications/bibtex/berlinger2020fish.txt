@@ -1,0 +1,7 @@
+@article{berlinger2020fish,
+  title={Fish-like three-dimensional swimming with an autonomous, multi-fin, and biomimetic robot},
+  author={Berlinger, Florian Conrad Joseph and Saadat, Mehdi and Haj-Hariri, Hossein and Lauder, George V and Nagpal, Radhika},
+  journal={Bioinspiration \& Biomimetics},
+  year={2020},
+  publisher={IOP Publishing}
+}
