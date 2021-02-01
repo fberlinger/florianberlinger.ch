@@ -1,0 +1,14 @@
+@article {Berlingereabd8668,
+	author = {Berlinger, Florian and Gauci, Melvin and Nagpal, Radhika},
+	title = {Implicit coordination for 3D underwater collective behaviors in a fish-inspired robot swarm},
+	volume = {6},
+	number = {50},
+	elocation-id = {eabd8668},
+	year = {2021},
+	doi = {10.1126/scirobotics.abd8668},
+	publisher = {Science Robotics},
+	abstract = {Many fish species gather by the thousands and swim in harmony with seemingly no effort. Large schools display a range of impressive collective behaviors, from simple shoaling to collective migration and from basic predator evasion to dynamic maneuvers such as bait balls and flash expansion. A wealth of experimental and theoretical work has shown that these complex three-dimensional (3D) behaviors can arise from visual observations of nearby neighbors, without explicit communication. By contrast, most underwater robot collectives rely on centralized, above-water, explicit communication and, as a result, exhibit limited coordination complexity. Here, we demonstrate 3D collective behaviors with a swarm of fish-inspired miniature underwater robots that use only implicit communication mediated through the production and sensing of blue light. We show that complex and dynamic 3D collective behaviors{\textemdash}synchrony, dispersion/aggregation, dynamic circle formation, and search-capture{\textemdash}can be achieved by sensing minimal, noisy impressions of neighbors, without any centralized intervention. Our results provide insights into the power of implicit coordination and are of interest for future underwater robots that display collective capabilities on par with fish schools for applications such as environmental monitoring and search in coral reefs and coastal environments.},
+	URL = {https://robotics.sciencemag.org/content/6/50/eabd8668},
+	eprint = {https://robotics.sciencemag.org/content/6/50/eabd8668.full.pdf},
+	journal = {Science Robotics}
+}
