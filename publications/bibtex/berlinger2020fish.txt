@@ -1,7 +1,11 @@
-@article{berlinger2020fish,
-  title={Fish-like three-dimensional swimming with an autonomous, multi-fin, and biomimetic robot},
-  author={Berlinger, Florian Conrad Joseph and Saadat, Mehdi and Haj-Hariri, Hossein and Lauder, George V and Nagpal, Radhika},
-  journal={Bioinspiration \& Biomimetics},
-  year={2020},
-  publisher={IOP Publishing}
+@article{Berlinger_2020,
+	doi = {10.1088/1748-3190/abd013},
+	url = {https://doi.org/10.1088/1748-3190/abd013},
+	year = 2020,
+	month = {dec},
+	publisher = {{IOP} Publishing},
+	author = {Florian Conrad Joseph Berlinger and Mehdi Saadat and Hossein Haj-Hariri and George V Lauder and Radhika Nagpal},
+	title = {Fish-like three-dimensional swimming with an autonomous, multi-fin, and biomimetic robot},
+	journal = {Bioinspiration {\&} Biomimetics},
+	abstract = {Fish migrate across considerable distances and exhibit remarkable agility to avoid predators and feed. Fish swimming performance and maneuverability remain unparalleled when compared to robotic systems, partly because previous work has focused on robots and flapping foil systems that are either big and complex, or tethered to external actuators and power sources. By contrast, we present a robot—the Finbot—that combines high degrees of autonomy, maneuverability, and biomimicry with miniature size (160 cm3). Thus, it is well-suited for controlled three-dimensional experiments on fish swimming in confined laboratory test beds. Finbot uses four independently controllable fins and sensory feedback for precise closed-loop underwater locomotion. Different caudal fins can be attached magnetically to reconfigure Finbot for swimming at top speed (122 mm s−1 ≡ 1 BL s−1) or minimal cost of transport (CoT = 8.2) at Strouhal numbers as low as 0.53. We conducted more than 150 experiments with 12 different caudal fins to measure three key characteristics of swimming fish: (i) linear speed-frequency relationships, (ii) U-shaped CoT, and (iii) reverse Kármán wakes (visualized with particle image velocimetry). More fish-like wakes appeared where the CoT was low. By replicating autonomous multi-fin fish-like swimming, Finbot narrows the gap between fish and fish-like robots and can address open questions in aquatic locomotion, such as optimized propulsion for new fish robots, or the hydrodynamic principles governing the energy savings in fish schools.}
 }
