@@ -1,0 +1,4 @@
+@article{berlingerself,
+  title={Self-Organized Evasive Fountain Maneuvers with a Bioinspired Underwater Robot Collective},
+  author={Berlinger, Florian and Wulkop, Paula and Nagpal, Radhika}
+}

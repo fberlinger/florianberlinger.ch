@@ -1,0 +1,5 @@
+@phdthesis{berlinger2021blueswarm,
+  title={Blueswarm: 3D Self-organization in a Fish-inspired Robot Swarm},
+  author={Berlinger, Florian},
+  year={2021}
+}

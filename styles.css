@@ -16,6 +16,7 @@ html, body {
       .container-xl {
         padding-left: 0 !important;
         padding-right: 0 !important;
+        flex:  1 0 auto;
       }
       .content {
         flex: 1 0 auto;
